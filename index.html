@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrascômetro</title>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+
+    <div class="header">
+        <ul class="menu">
+            <li class="menu-list">Início</li>
+            <li class="menu-list">Motivação</li>
+            <li class="menu-list">Métricas</li>
+            <li class="menu-list">Autor</li>
+            <li class="menu-list">Contato</li>
+        </ul>
+    </div>
+
+    <div class="body">
+        <div class="container">
+
+            <h1>Churrascômetro</h1>
+
+            <input class="num" type="number" placeholder="Quantidade de adultos" name="adulto" id="adulto">
+            <br>
+            <input class="num" type="number" placeholder="Quantidade de criaças" name="adulto" id="crianca">
+            <br>
+            <input class="num" type="number" placeholder="Duração em horas" name="adulto" id="duracao">
+            <br>
+            <br>
+            <span>Tipo de carne:<br> <input type="checkbox" name="radbo" id=""> Porco <input type="checkbox" name="radbo" id=""> Boi <input type="checkbox" name="radbo" id=""> Coxa de Frango</span>
+            <br>
+            <input class="cal" type="button" onclick="calcular()" value="Calcular">
+            <div class="calculo">
+
+            </div>
+        </div>
+    </div>
+    
+    <script src="/script/script.js"></script>
+</body>
+</html>
