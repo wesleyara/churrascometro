@@ -2,7 +2,7 @@
 
 ![git-image](https://user-images.githubusercontent.com/89321125/142421761-9a162a32-841e-41df-b333-9ab101d60507.PNG)
 
-Link do site: https://churrascometro-js.netlify.app/
+Link do site: <a href="https://churrascometro-js.netlify.app/">Churrascômetro</a>
 
 ### Contatos e redes sociais:
 <div style="display: inline_block">
