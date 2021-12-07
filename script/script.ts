@@ -1,26 +1,30 @@
 
 function calcular() {
-    var adulto = document.getElementById('adulto').value
-    var crianca = document.getElementById('crianca').value
-    var duracao = document.getElementById('duracao').value
+    var adult = document.getElementById('adulto') as HTMLInputElement
+    var crianc = document.getElementById('crianca') as HTMLInputElement
+    var duraca = document.getElementById('duracao') as HTMLInputElement
 
-    var carne = (((adulto * 0.5) + (crianca * 0.2)) * duracao).toFixed(1)
+    var adulto = Number(adult.value)
+    var crianca = Number(crianc.value)
+    var duracao = Number(duraca.value)
+
+    var carne: number = (((adulto * 0.5) + (crianca * 0.2)) * duracao)
     var cerveja = (adulto * 4) * duracao
     var bebidaAdulto = (adulto * 1) * duracao
     var bebidaCrianca = (crianca * 0.5) * duracao
     var bebida = bebidaAdulto + bebidaCrianca
 
-    var enu = document.getElementsByName('radbo')
+    var enu = document.getElementsByName('radbo') as NodeListOf<HTMLInputElement>
 
     var carnePorco = 18.89
     var carneBoi = 29.99
     var carneFrango = 14.50
 
-    var preco = ""
+    var preco: number = 0
     var precoLat = (4 * cerveja).toFixed(2).replace('.', ',')
     var precoBeb = (8 * bebida).toFixed(2).replace('.', ',')
 
-    var texto = document.querySelector('.calculo')
+    var texto = document.querySelector('.calculo') as HTMLDivElement
 
     if (enu[0].checked && enu[1].checked && enu[2].checked) {
         preco = ((carnePorco + carneBoi + carneFrango) / 3)  * carne
