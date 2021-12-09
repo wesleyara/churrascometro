@@ -1,6 +1,6 @@
 # Churrascômetro
 
-![git-image](https://user-images.githubusercontent.com/89321125/142421761-9a162a32-841e-41df-b333-9ab101d60507.PNG)
+![churrascometro](https://user-images.githubusercontent.com/89321125/145461666-46b0bc67-c6f5-42fe-8dec-24d9ad77e3ee.PNG)
 
 Link do site: <a target="_blank" href="https://churrascometro-js.netlify.app/">Churrascômetro</a>
 
