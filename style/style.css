@@ -1,13 +1,10 @@
     * {
         margin: 0;
         padding: 0;
+        text-shadow:  2px 2px 2px rgb(85, 83, 83);
     }
 
     body {
-        font-family: 'JetBrains Mono', monospace;
-    }
-
-    input {
         font-family: 'JetBrains Mono', monospace;
     }
 
@@ -40,6 +37,11 @@
         transform: scale(1.1);
     }
 
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
     body {
         background-image: url(/images/body-back.jpg);
         background-repeat: no-repeat;
@@ -61,6 +63,8 @@
         margin-left: 20px;
         padding: 15px; 
         border: 0px;
+        font-family: 'JetBrains Mono', monospace;
+        text-shadow: none;
     }
 
     h1 {
@@ -92,6 +96,7 @@
         color: white;
         background-color: #DE8A1F;
         border: 2px solid #FA3E23;
+        text-shadow:  2px 2px 2px rgb(85, 83, 83);
     }
 
     .metricas {
@@ -102,6 +107,7 @@
         color: white;
         background-color: #DE8A1F;
         border: 2px solid #FA3E23;
+        text-shadow:  2px 2px 2px rgb(85, 83, 83);
     }
 
     .paragrafo {
@@ -134,4 +140,56 @@
     
     .clear {
         clear: left;
+    }
+
+    .perfil {
+        width: 90%;
+        margin: auto;
+        margin-top: 50px;
+        padding: 30px;
+        color: white;
+        background-color: #DE8A1F;
+        border: 2px solid #FA3E23;
+        overflow: hidden;
+    }
+
+    .perfil-image {
+        border-radius: 500px;
+        width: 500px;
+        float: left;
+    }
+    
+    .quemsou {
+        width: 47%;
+        float: left;
+        margin-left: 30px;
+        border-radius: 5px;
+        text-shadow:  2px 2px 2px rgb(85, 83, 83);
+    }
+
+    .redes {
+        margin-left: 10px;
+        overflow: hidden;
+        padding: 2px;
+    }
+    
+    .redes:hover {
+        background-color: #FA3E23;
+        border-radius: 5px;
+    }
+
+    .footer {
+        width: calc(100% -60px);
+        padding: 30px;
+        margin-top: 50px;
+        color: white;
+        background-color: #DE8A1F;
+        border: 2px solid #FA3E23;
+        border-left: none;
+        border-right: none;
+        text-align: center;
+    }
+    
+    .span-contact {
+        margin-left: 0px;
     }
