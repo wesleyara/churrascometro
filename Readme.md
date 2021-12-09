@@ -24,3 +24,6 @@ Esse site foi criado com intuito de facilitar as pessoas na hora de comprar o qu
 
 ## O que ele faz?
 O churrascômetro basicamente utiliza dos dados que o cliente coloca para calcular tudo que vai ser necessário em seu churrasco, desde a quantidade de cada item, até o valor do mesmo.
+
+## Futuros upgrades:
+Adicionar mais opções para seleção dos usuários, proporcionando resultados melhores e também ajustar métricas para ser o mais fiel possível a realidade.
