@@ -40,9 +40,6 @@ function calcular() {
         preco = carneBoi * carne
     } else if (enu[2].checked) {
         preco = carneFrango * carne
-    } else {
-        alert("Por favor, selecione o tipo de carne!")
-        texto.innerHTML = ''
     }
 
     var precoCarne = preco.toFixed(2).replace('.',',')
@@ -51,23 +48,30 @@ function calcular() {
     var precoB = (8 * bebida)
     var precoTotal = (preco + precoL + precoB).toFixed(2).replace('.', ',')
 
-    texto.innerHTML = `
-    <h2>O que será necessário:</h2>
-    <br>
-    <p>
-    ${carne}kg de carne. Valor: R$${precoCarne}.
-    </p>
-    <br>
-    <p>
-    ${cerveja} latas de cerveja. Valor: R$${precoLat}.
-    </p>
-    <br>
-    <p>
-    ${bebida} Guaraná de 2L. Valor: R$${precoBeb}.
-    </p>
-    <br>
-    <p>
-    Valor total do pedido: R$${precoTotal}.
-    </p>
-    `
+    if (adult.value === '' || crianc.value === '' || duraca.value === '' || enu[0].checked == false && enu[1].checked == false && enu[2].checked == false) {
+        alert("Insira os dados que faltam!")
+        texto.innerHTML = ''
+    } else {
+        texto.innerHTML = `
+        <h2>O que será necessário:</h2>
+        <br>
+        <p>
+        ${carne}kg de carne. Valor: R$${precoCarne}.
+        </p>
+        <br>
+        <p>
+        ${cerveja} latas de cerveja. Valor: R$${precoLat}.
+        </p>
+        <br>
+        <p>
+        ${bebida} Guaraná de 2L. Valor: R$${precoBeb}.
+        </p>
+        <br>
+        <p>
+        Valor total do pedido: R$${precoTotal}.
+        </p>
+        `  
+    }
+
+    
 }
