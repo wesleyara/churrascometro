@@ -4,7 +4,11 @@
     }
 
     body {
-        font-family: courier new, serif;
+        font-family: 'JetBrains Mono', monospace;
+    }
+
+    input {
+        font-family: 'JetBrains Mono', monospace;
     }
 
     .header {
