@@ -12,6 +12,7 @@ Link do site: <a target="_blank" href="https://churrascometro-js.netlify.app/">C
   <a href="https://www.instagram.com/wesleyaraujo_w/"><img alt="Wesley-INSTA" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a> 
 </div>
 
+
 ### Linguagens utilizadas:
 <div style="display: inline_block;">
   <img target="_blank" align="center" alt="Wesley-TS" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
@@ -19,6 +20,8 @@ Link do site: <a target="_blank" href="https://churrascometro-js.netlify.app/">C
   <img align="center" alt="Wesley-CSS" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 </div>
 <br>
+
+
 
 ## Motivação:
 Esse site foi criado com intuito de facilitar as pessoas na hora de comprar o que é necessário para um churrasco.
